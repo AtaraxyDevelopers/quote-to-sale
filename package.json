@@ -1,0 +1,27 @@
+{
+  "name": "@ataraxydevelopers/quote-to-sale",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Prepare clear quotations and export customer-ready HTML documents.",
+  "license": "MIT",
+  "author": "Ataraxy Developers",
+  "engines": {
+    "node": ">=22"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AtaraxyDevelopers/quote-to-sale.git"
+  },
+  "scripts": {
+    "start": "node server.mjs",
+    "example": "node scripts/analyze.mjs",
+    "test": "node --test test/*.test.mjs",
+    "test:browser": "playwright test",
+    "browser:install": "playwright install chromium"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.65.1",
+    "@axe-core/playwright": "4.14.0"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "project": "quote-to-sale",
+  "settings": {
+    "currency": "USD",
+    "businessName": "Example Studio",
+    "replyEmail": "sales@example.com",
+    "terms": "Confirm scope and delivery dates before work begins."
+  },
+  "records": [
+    {
+      "id": "quote-1",
+      "name": "Maple Studio",
+      "email": "buyer@example.com",
+      "description": "Website maintenance package",
+      "quantity": 2,
+      "unitPrice": 500,
+      "discount": 10,
+      "tax": 5,
+      "validUntil": "2026-11-30",
+      "status": "sent"
+    },
+    {
+      "id": "quote-2",
+      "name": "River Foods",
+      "email": "team@example.com",
+      "description": "Analytics setup",
+      "quantity": 1,
+      "unitPrice": 1200,
+      "discount": 0,
+      "tax": 0,
+      "validUntil": "2026-11-10",
+      "status": "draft"
+    }
+  ]
+}
